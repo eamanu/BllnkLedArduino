@@ -1,0 +1,62 @@
+\hypertarget{main_8c}{}\section{main.\+c File Reference}
+\label{main_8c}\index{main.\+c@{main.\+c}}
+{\ttfamily \#include $<$avr/io.\+h$>$}\\*
+{\ttfamily \#include $<$util/delay.\+h$>$}\\*
+Include dependency graph for main.\+c\+:
+% FIG 0
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{main_8c_a23027618195724cdbe8ae4ef78128008}{config\+Hardware} ()
+\begin{DoxyCompactList}\small\item\em Configuracion del Hardware. Define como salida el Pin 7 del P\+O\+R\+TB. Es decir el pin 13 de Arduino Atmega2560. \end{DoxyCompactList}\item 
+int \hyperlink{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{main} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This software just blikend a led in Atmega2560 \begin{DoxyAuthor}{Author}
+Arias Emmanuel 
+\end{DoxyAuthor}
+\begin{DoxyDate}{Date}
+Mar 9, 2016 
+\end{DoxyDate}
+\begin{DoxyCopyright}{Copyright}
+G\+NU Public Lincense 
+\end{DoxyCopyright}
+
+
+\subsection{Function Documentation}
+\index{main.\+c@{main.\+c}!config\+Hardware@{config\+Hardware}}
+\index{config\+Hardware@{config\+Hardware}!main.\+c@{main.\+c}}
+\subsubsection[{\texorpdfstring{config\+Hardware()}{configHardware()}}]{\setlength{\rightskip}{0pt plus 5cm}void config\+Hardware (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8c_a23027618195724cdbe8ae4ef78128008}{}\label{main_8c_a23027618195724cdbe8ae4ef78128008}
+
+
+Configuracion del Hardware. Define como salida el Pin 7 del P\+O\+R\+TB. Es decir el pin 13 de Arduino Atmega2560. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em none} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void 
+\end{DoxyReturn}
+
+
+Definition at line 19 of file main.\+c.
+
+\index{main.\+c@{main.\+c}!main@{main}}
+\index{main@{main}!main.\+c@{main.\+c}}
+\subsubsection[{\texorpdfstring{main()}{main()}}]{\setlength{\rightskip}{0pt plus 5cm}int main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\hypertarget{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}{}\label{main_8c_ae66f6b31b5ad750f1fe042a706a4e3d4}
+Infinite loop
+
+Definition at line 24 of file main.\+c.
+
